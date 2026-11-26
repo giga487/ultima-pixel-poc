@@ -1,0 +1,142 @@
+﻿[
+  {
+    "name": "anim.idx",
+    "type": "file",
+    "size": 422100
+  },
+  {
+    "name": "anim.mul",
+    "type": "file",
+    "size": 157571
+  },
+  {
+    "name": "animdata.mul",
+    "type": "file",
+    "size": 548
+  },
+  {
+    "name": "art.mul",
+    "type": "file",
+    "size": 130850
+  },
+  {
+    "name": "artidx.mul",
+    "type": "file",
+    "size": 297984
+  },
+  {
+    "name": "Cliloc.enu",
+    "type": "file",
+    "size": 101
+  },
+  {
+    "name": "fonts.mul",
+    "type": "file",
+    "size": 248290
+  },
+  {
+    "name": "gumpart.mul",
+    "type": "file",
+    "size": 168560
+  },
+  {
+    "name": "gumpidx.mul",
+    "type": "file",
+    "size": 605568
+  },
+  {
+    "name": "hues.mul",
+    "type": "file",
+    "size": 265500
+  },
+  {
+    "name": "light.mul",
+    "type": "file",
+    "size": 4096
+  },
+  {
+    "name": "lightidx.mul",
+    "type": "file",
+    "size": 192
+  },
+  {
+    "name": "map0.mul",
+    "type": "file",
+    "size": 28224
+  },
+  {
+    "name": "multi.idx",
+    "type": "file",
+    "size": 12
+  },
+  {
+    "name": "multi.mul",
+    "type": "file",
+    "size": 0
+  },
+  {
+    "name": "radarcol.mul",
+    "type": "file",
+    "size": 65536
+  },
+  {
+    "name": "Skills.idx",
+    "type": "file",
+    "size": 96
+  },
+  {
+    "name": "skills.mul",
+    "type": "file",
+    "size": 80
+  },
+  {
+    "name": "sound.mul",
+    "type": "file",
+    "size": 5372
+  },
+  {
+    "name": "soundidx.mul",
+    "type": "file",
+    "size": 12288
+  },
+  {
+    "name": "staidx0.mul",
+    "type": "file",
+    "size": 1728
+  },
+  {
+    "name": "statics0.mul",
+    "type": "file",
+    "size": 1918
+  },
+  {
+    "name": "texidx.mul",
+    "type": "file",
+    "size": 15360
+  },
+  {
+    "name": "texmaps.mul",
+    "type": "file",
+    "size": 163840
+  },
+  {
+    "name": "tiledata.mul",
+    "type": "file",
+    "size": 830464
+  },
+  {
+    "name": "unifont.mul",
+    "type": "file",
+    "size": 263244
+  },
+  {
+    "name": "unifont1.mul",
+    "type": "file",
+    "size": 263244
+  },
+  {
+    "name": "unifont2.mul",
+    "type": "file",
+    "size": 265344
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "ultimaonlinedirectory": "/uo",
+  "uodataurl": "./uo/",
+  "clientversion": "7.0.117.1",
+  "ip": "offline://local",
+  "port": 2593,
+  "ignore_relay_ip": true,
+  "maps_layouts": "96,96;96,96",
+  "apiurl": ""
+}
