@@ -29,7 +29,7 @@
         }
 
         .page-shell {
-            width: min(100%, 1140px);
+            width: min(100%, 1220px);
             margin: 0 auto;
             padding: 1.5rem 1.25rem 2rem;
             display: flex;
@@ -143,8 +143,8 @@
 
         #game-container {
             position: relative;
-            width: min(100%, 1100px);
-            aspect-ratio: 1100 / 616;
+            width: min(100%, 1180px);
+            aspect-ratio: 1180 / 700;
             margin: 0 auto;
             container-type: size;
             display: flex;
@@ -173,8 +173,8 @@
         }
 
         #canvas.mode-fixed {
-            width: min(100cqw, calc(100cqh * var(--fixed-ratio, 1.785714))) !important;
-            height: min(100cqh, calc(100cqw / var(--fixed-ratio, 1.785714))) !important;
+            width: min(100cqw, calc(100cqh * var(--fixed-ratio, 1.685714))) !important;
+            height: min(100cqh, calc(100cqw / var(--fixed-ratio, 1.685714))) !important;
         }
 
         #canvas.mode-fluid {
@@ -284,9 +284,10 @@
         </div>
 
         <p class="controls-hint">
-            <strong>Right-click &amp; hold</strong> to walk or run &middot;
-            <strong>Double-click character</strong> (or <strong>Alt+P</strong>) for Paperdoll &middot;
-            <strong>Type + Enter</strong> for local chat
+            <strong>Right-click &amp; hold</strong> walk/run &middot;
+            <strong>Tab</strong> War/Peace &middot;
+            <strong>Ctrl+B / Ctrl+S</strong> Bow/Salute &middot;
+            <strong>Type + Enter</strong> chat or animation commands (<code>attack</code>, <code>cleave</code>, <code>sweep</code>, <code>jab</code>, <code>cast</code>, <code>area</code>, <code>bow</code>, <code>salute</code>, <code>fidget</code>, <code>hit</code>, <code>die</code>, <code>help</code>)
         </p>
     </div>
 </body>

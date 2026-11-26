@@ -52,6 +52,10 @@ const resizeObserver = new ResizeObserver(() => {
     resizeTimer = setTimeout(notifyFluidResize, 80);
 });
 resizeObserver.observe(container);
+document.addEventListener('fullscreenchange', () => {
+    if (canvasMode !== 'fluid') return;
+    requestAnimationFrame(notifyFluidResize);
+});
 
 let musicAudio = null;
 let pendingMusicPlay = false;
@@ -377,7 +381,11 @@ try {
     window.uoDebug.forceGc = () => exports.ClassicUO.Web.Program.ForceGcDiagnostic();
 
     function frameLoop() {
-        stepFrame();
+        try {
+            stepFrame();
+        } catch (err) {
+            console.error('ClassicUO frame error:', err);
+        }
         requestAnimationFrame(frameLoop);
     }
     requestAnimationFrame(frameLoop);
